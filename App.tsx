@@ -35,7 +35,7 @@ const App: React.FC = () => {
   };
 
   return (
-    <div className="font-sans bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-200 transition-colors duration-500">
+    <div className="font-sans bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-slate-100 transition-colors duration-500">
       <Header theme={theme} toggleTheme={toggleTheme} />
       <main>
         <Hero />

@@ -6,11 +6,11 @@ const About: React.FC = () => {
     const [ref, isVisible] = useIntersectionObserver({ threshold: 0.2 });
 
     return (
-        <section id="about" className="py-20 lg:py-32 bg-slate-100 dark:bg-slate-950">
+        <section id="about" className="py-20 lg:py-32 bg-white dark:bg-slate-900">
             <div ref={ref} className={`container mx-auto px-6 transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
                 <div className="text-center mb-12">
                     <h2 className="font-display text-3xl md:text-4xl font-bold mb-4 tracking-tight">We Are JBE</h2>
-                    <p className="text-lg text-slate-600 dark:text-slate-400 max-w-2xl mx-auto leading-relaxed">
+                    <p className="text-lg text-slate-500 dark:text-slate-400 max-w-2xl mx-auto leading-relaxed">
                         A creative digital agency blending innovation with artistry to build unforgettable brand experiences.
                     </p>
                 </div>

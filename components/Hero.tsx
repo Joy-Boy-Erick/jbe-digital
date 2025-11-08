@@ -5,7 +5,7 @@ const Hero: React.FC = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0 z-0 gradient-bg"></div>
-      <div className="absolute inset-0 bg-black/30 z-10"></div>
+      <div className="absolute inset-0 bg-black/40 z-10"></div>
       
       <div className="relative z-20 text-center text-white px-4">
         <h1 className="font-display text-4xl md:text-6xl lg:text-7xl font-extrabold mb-4 tracking-tighter animate-fade-in-down" style={{ animationDelay: '0.2s' }}>
